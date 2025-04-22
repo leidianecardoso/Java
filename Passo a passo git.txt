@@ -1,0 +1,14 @@
+1. Na pasta que desejar, clicar em Open Git Bash Here
+2. Ao abrir o terminar, iniciar o git com git.init
+3. Para enviar todos os arquivo da pasta, git add .
+4. Verificar o status, git status
+5. Antes de enviar, verificar se está com o email e usuário 
+git config --global user.email "leidiane.hbm@gmail.com"
+git config --global user.name "leidianecardoso"
+6. Fazendo o commit git commit -m "Arquivos iniciais"
+7. Enviando a primeira vez no repositório criado
+git remote add origin https://github.com/leidianecardoso/Java
+8. Se o git da máquina já tivere arquivos antes do repositório remoto: 
+git pull origin main --allow-unrelated-histories
+9. Subir os arquivos 
+git push --set-upstream origin main
